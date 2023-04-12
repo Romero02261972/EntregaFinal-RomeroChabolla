@@ -149,6 +149,7 @@ footer a img {
 .tamaño-img {
  margin-top: 1%;
  width: 90%;
+ height: 250px;
  object-fit: cover;
 }
 .img-sales {
@@ -231,7 +232,7 @@ footer a img {
  margin-top: 1%;
 }
 
-#links-secciones: {
+#links-secciones {
 }
 #leer-mas {
  color: rgb(1, 49, 14, 0.878);
