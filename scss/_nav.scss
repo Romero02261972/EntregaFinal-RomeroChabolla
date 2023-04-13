@@ -1,26 +1,25 @@
 
 
     nav{
-        text-align: center;
-        background-color:$mainColor;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        padding: 1%;
-        margin-left: 0%;
+        width: $width100;
+        text-align: $textCenter;
+        margin-top: $margin_2;
+        margin-bottom: $margin_2;
+        padding: $margin_1;
+        margin-left: $margin_0; 
     ul{
-        display: inline-block;
-        list-style: none;
+        display: block;
+        list-style: $no;
         li{
-                 margin-bottom: 5%;
-            a{
+                 margin-bottom: $margin_5;
+             a{
                 display: block;
-                color: $wtColor;
-                text-decoration: none;
+                color: $mainColor;
+                text-decoration: $no;
                 font-size: $textLg;
                 font-weight: $textBold;
-                padding-bottom: 1%;
-                width: auto;
-                &:hover{
+                padding-bottom: $margin_1;
+                  &:hover{
                     color:$secondaryColor
                 }
            
