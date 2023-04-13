@@ -1,0 +1,32 @@
+
+
+    nav{
+        text-align: left;
+        background-color:$mainColor;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 1%;
+        margin-left: 0%;
+    ul{
+        display: inline-block;
+        list-style: none;
+        li{
+            margin-bottom: 5%;
+            a{
+                display: block;
+                color: $wtColor;
+                text-decoration: none;
+                font-size: $textLg;
+                font-weight: $textBold;
+                padding-bottom: 1%;
+                width: auto;
+                &:hover{
+                    color:$secondaryColor
+                }
+           
+            }
+        }
+    }
+} 
+
+

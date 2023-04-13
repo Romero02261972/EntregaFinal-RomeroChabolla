@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900");
+.iconos {
+  width: 2em;
+}
+
+.icono-resp {
+  width: 2em;
+}
+
+nav {
+  text-align: left;
+  background-color: rgb(44, 44, 44);
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1%;
+  margin-left: 0%;
+}
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li {
+  margin-bottom: 5%;
+}
+nav ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 400;
+  padding-bottom: 1%;
+  width: auto;
+}
+nav ul li a:hover {
+  color: red;
+}
+
+/*# sourceMappingURL=main.css.map */

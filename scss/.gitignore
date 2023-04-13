@@ -1,0 +1,7 @@
+node_modules/
+*.vsc
+*.log
+*.ia
+*.psd
+
+//revisar si se hizo bien el archivo gitignore

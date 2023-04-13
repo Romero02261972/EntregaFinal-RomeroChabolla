@@ -66,35 +66,6 @@ button {
  margin-right: 5px;
 }
 
-nav {
- margin-top: 2%;
- margin-bottom: 2%;
- padding: 1%;
- margin-left: 0%;
-}
-
-nav ul li a {
- color: rgb(44, 44, 44);
- text-decoration: none;
- font-size: 1.5em;
- font: bold;
- padding-bottom: 1%;
- padding-left: 20px;
- padding-right: 20px;
- width: auto;
-}
-
-nav ul li a:hover {
- color: red;
-}
-
-nav ul li {
- margin-bottom: 5%;
-}
-
-nav ul {
- list-style: none;
-}
 
 footer {
  background-color: rgb(1, 49, 14, 0.878);
@@ -232,8 +203,6 @@ footer a img {
  margin-top: 1%;
 }
 
-#links-secciones {
-}
 #leer-mas {
  color: rgb(1, 49, 14, 0.878);
  text-decoration: none;
@@ -339,9 +308,7 @@ footer a img {
   font-size: 1em;
   display: block;
  }
- .secciones {
- }
- .foto {
+  .foto {
   display: none;
  }
  .art-text {
