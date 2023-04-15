@@ -16,9 +16,9 @@ body {
 header {
  background-color: white;
  margin-top: 1px;
- margin-bottom: 10px;
- margin-right: 5px;
- margin-left: 3px;
+ margin-bottom: 10px;/* TODO: pasarlo a % */
+ margin-right: 5px;/* TODO: pasarlo a % */
+ margin-left: 3px;/* TODO: pasarlo a % */
  padding: 1px;
  display: flex;
  justify-content: space-between;
@@ -60,20 +60,20 @@ label {
 button {
  color: white;
  background-color: rgba(44, 44, 44, 0.863);
- width: 70px;
- height: 30px;
+ width: 70px;/* TODO: pasarlo a % */
+ height: 30px;/* TODO: pasarlo a % */
  border-radius: 10%;
- margin-right: 5px;
+ margin-right: 5px;/* TODO: pasarlo a % */
 }
 
 
 footer {
  background-color: rgb(1, 49, 14, 0.878);
- margin-top: 10px;
- margin-bottom: 10px;
- margin-left: 3px;
- margin-right: 5px;
- padding: 10px;
+ margin-top: 10px;/* TODO: pasarlo a % */
+ margin-bottom: 10px;/* TODO: pasarlo a % */
+ margin-left: 3px;/* TODO: pasarlo a % */
+ margin-right: 5px;/* TODO: pasarlo a % */
+ padding: 10px; /* TODO: pasarlo a % */
  display: flex;
  justify-content: space-between;
  text-align: center;
@@ -154,7 +154,7 @@ footer a img {
  fill: white;
 }
 .anuncio-1 {
- padding: 50px;
+ padding: 50px;/* TODO cambiar a % si se puede */
 }
 
 .anuncio-2 {

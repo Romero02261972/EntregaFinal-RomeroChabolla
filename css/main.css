@@ -1,41 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900");
-.iconos {
-  width: 2em;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 2 |     width: $widthIcono
+ *   |            ^^^^^^^^^^^
+ *   '
+ *   scss\_commons.scss 2:12  @import
+ *   scss\main.scss 4:9       root stylesheet */
 
-.icono-resp {
-  width: 2em;
-}
-
-.w-100 {
-  width: 100%;
-}
-
-nav {
-  width: 100%;
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  padding: 1%;
-  margin-left: 0%;
-}
-nav ul {
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
   display: block;
-  list-style: none;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 2 \2502      width: $widthIcono\d\a   \2502             ^^^^^^^^^^^\a   \2575 \a   scss\\_commons.scss 2:12  @import\a   scss\\main.scss 4:9       root stylesheet";
 }
-nav ul li {
-  margin-bottom: 5%;
-}
-nav ul li a {
-  display: block;
-  color: rgb(44, 44, 44);
-  text-decoration: none;
-  font-size: 2em;
-  font-weight: 400;
-  padding-bottom: 1%;
-}
-nav ul li a:hover {
-  color: red;
-}
-
-/*# sourceMappingURL=main.css.map */

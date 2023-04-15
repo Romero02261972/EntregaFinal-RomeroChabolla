@@ -1,24 +1,20 @@
 
 
     nav{
-        width: $width100;
-        text-align: $textCenter;
-        margin-top: $margin_2;
-        margin-bottom: $margin_2;
-        padding: $margin_1;
-        margin-left: $margin_0; 
+@include nav (100%, center, 2%,2%,1%,0%);
+   
     ul{
-        display: block;
+        display: $block;
         list-style: $no;
         li{
-                 margin-bottom: $margin_5;
+                 margin-bottom: $m5;
              a{
-                display: block;
-                color: $mainColor;
+                display: $block;
+                color: $mainC;
                 text-decoration: $no;
-                font-size: $textLg;
-                font-weight: $textBold;
-                padding-bottom: $margin_1;
+                font-size: $textL;
+                font-weight: $textB;
+                padding-bottom: $m1;
                   &:hover{
                     color:$secondaryColor
                 }

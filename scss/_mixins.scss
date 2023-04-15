@@ -1,0 +1,10 @@
+@mixin nav ($width, $textA, $marginT, $marginB, $margL, $pad,){
+    width: $widht;
+    text-align: $textA;
+    margin-top: $marginT;
+    margin-bottom: $marginB;
+    margin-left: $margL;
+    padding: $pad;
+}
+
+

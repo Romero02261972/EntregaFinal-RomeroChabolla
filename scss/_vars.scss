@@ -1,8 +1,3 @@
-// variables globales
-$mainColor: rgb(44, 44, 44) ;
-$secondaryColor: red;
-$wtColor: white;
-
 //fonts
 $mainFont: 'Roboto', 'sans-serif';
 $textXsm: 1em;
@@ -14,28 +9,37 @@ $textXxlg: 3.5em;
 $textXxxlg: 4em;
 $textBold:400;
 $textLight:300;
+$expanded: expanded;
+$italic: italic;
 
-//width
-$widthIcono: 2em;
-$width100: 100%;
+// background color
+$bg-patt: url(../css/assets/img/bg3.jpg);
 
 //aligne
-$textCenter: center;
-$textLeft: left;
-$textRight: right;
-$textJust: justify;
+$Center: center;
+$Left: left;
+$Right: right;
+$Just: justify;
+$end: flex-end;
+$col: column;
+$spcAround: space-around;
 
-//margin
-$margin_0: 0%;
-$margin_1: 1%;
-$margin_2: 2%;
-$margin_5: 5%;
-$margin_10: 10%;
-$margin_25: 25%;
-$margin_50: 50%;
-$margin_100: 100%;
+//height
+$height30px: 30px;
+$height250px: 250px;
 
 //none
-$no: none
+$no: none;
 
- 
+//display
+$flex: flex;
+$block: block;
+$inlineBlock: inline-block;
+$spaceBetween: space-between;
+$grid: grid;
+
+// border
+$borderR10: 10%;
+$borderRpx10px: 10px;
+
+
