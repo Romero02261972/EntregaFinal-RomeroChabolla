@@ -169,7 +169,7 @@ footer a img {
   text-decoration: none;
 }
 
-.tamaño-img {
+.tamaño-img, .img-sales {
   margin-top: 1%;
   width: 90%;
   height: 250px;
@@ -177,11 +177,8 @@ footer a img {
 }
 
 .img-sales {
-  margin-top: 1%;
   margin-left: 2px;
   margin-right: 2px;
-  width: 250px;
-  object-fit: cover;
 }
 
 .margin-top {
@@ -233,7 +230,7 @@ footer a img {
   font-size: 1.5em;
   font-weight: 500;
 }
-.leerMas:hover {
+.leerMas :hover {
   color: red;
 }
 
@@ -271,11 +268,6 @@ footer a img {
   font-size: 1.5em;
   font-weight: 400;
   text-align: center;
-}
-
-#img-portada {
-  width: 100%;
-  height: auto;
 }
 
 /* FLEX */

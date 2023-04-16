@@ -70,19 +70,18 @@ footer {
    justify-content: $spaceBetween;
    text-align: $center;
 
-   p {
+      p {
       color: $wtC;
       font-size: $f1_5;
       display: $block;
-   }
-
-   a {
-      img {
-         width: $icono;
       }
-   }
-}
 
+      a {
+         img {
+            width: $icono;
+         }
+      }
+}
 /*clases  */
 
 .logo-principal {
@@ -126,12 +125,10 @@ footer {
 }
 
 .img-sales {
-   margin-top: $m1;
+   @extend .tamaño-img;
    margin-left: $mPx2;
    margin-right: $mPx2;
-   width: $w250px;
-   object-fit: $cover;
-}
+  }
 
 .margin-top {
    margin-top: $mPx10;
@@ -217,12 +214,6 @@ footer {
    font-weight: $textBold;
    text-align: $center;
 }
-
-#img-portada {
-   width: $w100;
-   height: $auto;
-}
-
 /* FLEX */
 .align-center {
    align-self: $center;
