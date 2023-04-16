@@ -1,4 +1,12 @@
+@mixin h1($color, $size, $fontW, $aligne){
+    color: $color;
+    font-size: $size;
+    font-weight: $fontW;
+    text-align: $aligne;
+}
 
-
-
-
+@mixin pago ($size, $align, $marginT){
+    font-size: $size;
+    text-align: $center;
+    margin-top: $marginT;
+}
