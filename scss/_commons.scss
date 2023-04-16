@@ -1,0 +1,90 @@
+
+* {
+    box-sizing: $borderBx;
+ }
+ 
+ body {
+    width: $w99;
+ }
+ 
+ header {
+    background-color: $wtC;
+    margin-top: $mPx1;
+    margin-bottom: $mPx10;
+    margin-right: $mPx5;
+    margin-left: $mPx3;
+    padding: $mPx1;
+    display: $flex;
+    justify-content: $spaceBetween;
+    align-items: $end;
+ }
+ 
+ h1 {
+    @include h1(red, 3.5em, 300, center);
+ }
+ 
+ h2,
+ h3,
+ h4 {
+    color: $mainC;
+    font-size: $textLg;
+    font-weight: $textBold;
+    text-align: $center;
+ }
+ 
+ p {
+    color: $transC;
+    font-size: $textMd;
+    font-weight: $textBold;
+    text-align: $just;
+ }
+ label {
+    color: $transC;
+ }
+ 
+ button {
+    color: $wtC;
+    background-color: $transC;
+    width: $w70;
+    height: $height30px;
+    border-radius: $borderRpx10px;
+    margin-right: $m5;
+ }
+ 
+ footer {
+    background-color: $greenC;
+    margin-top: $mPx10;
+    margin-bottom: $mPx10;
+    margin-left: $mPx3;
+    margin-right: $mPx5;
+    padding: $mPx10;
+    display: $flex;
+    justify-content: $spaceBetween;
+    text-align: $center;
+ 
+       p {
+       color: $wtC;
+       font-size: $f1_5;
+       display: $block;
+       }
+ 
+       a {
+          img {
+             width: $icono;
+          }
+       }
+ }
+
+ //clases
+ .logo-principal {
+    width: $w80;
+    height: $auto;
+ }
+ 
+.bg-pattern {
+    background-image: url(../css/assets/img/bg3.jpg);
+ }
+ 
+ .iconos {
+    width: $f2e;
+ }

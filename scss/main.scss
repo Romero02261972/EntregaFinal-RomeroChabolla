@@ -7,88 +7,7 @@
 @import "responsive";
 @import "_nav";
 
-* {
-   box-sizing: $borderBx;
-}
-
-body {
-   width: $w99;
-}
-
-header {
-   background-color: $wtC;
-   margin-top: $mPx1;
-   margin-bottom: $mPx10;
-   margin-right: $mPx5;
-   margin-left: $mPx3;
-   padding: $mPx1;
-   display: $flex;
-   justify-content: $spaceBetween;
-   align-items: $end;
-}
-
-h1 {
-   @include h1(red, 3.5em, 300, center);
-}
-
-h2,
-h3,
-h4 {
-   color: $mainC;
-   font-size: $textLg;
-   font-weight: $textBold;
-   text-align: $center;
-}
-
-p {
-   color: $transC;
-   font-size: $textMd;
-   font-weight: $textBold;
-   text-align: $just;
-}
-label {
-   color: $transC;
-}
-
-button {
-   color: $wtC;
-   background-color: $transC;
-   width: $w70;
-   height: $height30px;
-   border-radius: $borderRpx10px;
-   margin-right: $m5;
-}
-
-footer {
-   background-color: $greenC;
-   margin-top: $mPx10;
-   margin-bottom: $mPx10;
-   margin-left: $mPx3;
-   margin-right: $mPx5;
-   padding: $mPx10;
-   display: $flex;
-   justify-content: $spaceBetween;
-   text-align: $center;
-
-      p {
-      color: $wtC;
-      font-size: $f1_5;
-      display: $block;
-      }
-
-      a {
-         img {
-            width: $icono;
-         }
-      }
-}
 /*clases  */
-
-.logo-principal {
-   width: $w80;
-   height: $auto;
-}
-
 .text-right {
    text-align: $right;
 }
@@ -104,52 +23,33 @@ footer {
 .size-sm {
    @include pago(1.5em, center, 5px);
 }
-
-.bg-pattern {
-   background-image: url(../css/assets/img/bg3.jpg);
-}
-
-.iconos {
-   width: $f2e;
-}
-
 .dec-none {
    text-decoration: $no;
 }
-
 .tamaño-img {
    margin-top: $m1;
    width: $w90;
    height: $height250px;
    object-fit: $cover;
 }
-
 .img-sales {
    @extend .tamaño-img;
    margin-left: $mPx2;
    margin-right: $mPx2;
   }
-
 .margin-top {
    margin-top: $mPx10;
 }
-
 .articulo {
    color: $redC;
    padding: $m2;
    margin-top: $m1;
 }
-
 .fill-rgba {
    fill: $transC;
 }
-
 .fill-white {
    fill: $wtC;
-}
-
-.anuncio {
-   padding: $m50px;
 }
 .formulario {
    width: $w100;
@@ -213,6 +113,11 @@ footer {
    font-size: $f1_5;
    font-weight: $textBold;
    text-align: $center;
+   padding: $m50px;
+}
+#anuncio-2{
+   @extend #anuncio;
+   padding: $pdPx100;
 }
 /* FLEX */
 .align-center {
