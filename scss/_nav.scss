@@ -1,8 +1,11 @@
 
 
     nav{
-@include nav (100%, center, 2%,2%,1%,0%);
-   
+        display: $block;
+        text-align: $left;
+        color: $mainC;
+        font-size: $f1;
+  
     ul{
         display: $block;
         list-style: $no;
@@ -12,11 +15,11 @@
                 display: $block;
                 color: $mainC;
                 text-decoration: $no;
-                font-size: $textL;
-                font-weight: $textB;
+                font-size: $textLg;
+                font-weight: $textBold;
                 padding-bottom: $m1;
                   &:hover{
-                    color:$secondaryColor
+                    color:$redC
                 }
            
             }
