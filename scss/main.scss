@@ -26,16 +26,20 @@
 .dec-none {
    text-decoration: $no;
 }
+
+.tamaño-video{
+   margin-top: $m1;
+   width: $w90; 
+}
 .tamaño-img {
    margin-top: $m1;
-   width: $w90;
-   height: $height250px;
-   object-fit: $cover;
+   width: $w60;
 }
+
 .img-sales {
    @extend .tamaño-img;
-   margin-left: $mPx2;
-   margin-right: $mPx2;
+   margin-left: $mPx20;
+   margin-right: $mPx20;
   }
 .margin-top {
    margin-top: $mPx10;
@@ -67,7 +71,7 @@
    font-size: $f2e;
    font-weight: $fB;
    width: $w100;
-   border-radius: $borderR10;
+   border-radius: $borderRpx10px;
    margin-top: $m2;
 }
 .leerMas {
@@ -114,6 +118,7 @@
    font-weight: $textBold;
    text-align: $center;
    padding: $m50px;
+   margin-top: $m10
 }
 #anuncio-2{
    @extend #anuncio;
@@ -184,7 +189,7 @@
       margin: $mPx8;
    }
 
-   .foto {
+   .ocultar {
       display: $no;
    }
 

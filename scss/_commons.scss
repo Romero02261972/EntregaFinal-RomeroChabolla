@@ -37,7 +37,9 @@
     font-size: $textMd;
     font-weight: $textBold;
     text-align: $just;
- }
+    }
+
+ 
  label {
     color: $transC;
  }
@@ -45,7 +47,7 @@
  button {
     color: $wtC;
     background-color: $transC;
-    width: $w70;
+    width: $w70px;
     height: $height30px;
     border-radius: $borderRpx10px;
     margin-right: $m5;
@@ -76,6 +78,12 @@
  }
 
  //clases
+ .p_articulo{
+   color: $transC;
+   font-size: $textSm;
+   font-weight: $textBold;
+   text-align: $just; 
+ }
  .logo-principal {
     width: $w80;
     height: $auto;
