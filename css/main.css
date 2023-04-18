@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900");
+/* .articulos{
+    @include articulos (rgb (44, 44, 44), 1em, italic, left, underline,square);
+}
+ */
 * {
   box-sizing: border-box;
 }
@@ -136,9 +140,6 @@ $grid4: aside-2; */
   .foto {
     display: none;
   }
-  .art-text {
-    font-size: 1.2em;
-  }
 }
 nav {
   display: block;
@@ -164,6 +165,23 @@ nav ul li a:hover {
 }
 
 /*clases  */
+.titulo-articulos {
+  color: rgb 44, 44, 44;
+  font-size: 2em;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+.art-text {
+  margin: 5%;
+  font-size: 1.5em;
+}
+
 .text-right {
   text-align: right;
 }
@@ -180,6 +198,16 @@ nav ul li a:hover {
   font-size: 1.5em;
   text-align: center;
   margin-top: 5px;
+}
+
+.articulos {
+  color: grey;
+  font-size: 12px;
+  font-style: italic;
+  text-align: left;
+  font-weight: 100;
+  text-decoration: underline;
+  list-style-type: square;
 }
 
 .dec-none {
@@ -351,9 +379,6 @@ nav ul li a:hover {
   }
   .ocultar {
     display: none;
-  }
-  .art-text {
-    font-size: 1.2em;
   }
 }
 

@@ -8,6 +8,16 @@
 @import "_nav";
 
 /*clases  */
+
+.titulo-articulos{
+      @include articulos (rgb (44, 44, 44), 2em, normal, center, 400,none, none);
+      margin-top: $m5;
+      margin-bottom: $m15;
+  }
+.art-text {
+   margin: $m5;;
+   font-size: $textMd;
+   }
 .text-right {
    text-align: $right;
 }
@@ -23,8 +33,14 @@
 .size-sm {
    @include pago(1.5em, center, 5px);
 }
+
+.articulos{
+    @include articulos (grey, 12px, italic, left, 100, underline, square)
+}
+
 .dec-none {
    text-decoration: $no;
+   
 }
 
 .tamaño-video{
@@ -193,7 +209,5 @@
       display: $no;
    }
 
-   .art-text {
-      font-size: $textSm;
-   }
+
 }

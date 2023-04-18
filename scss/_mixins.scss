@@ -1,8 +1,8 @@
-@mixin h1($color, $size, $fontW, $aligne){
+@mixin h1($color, $size, $fontW, $align){
     color: $color;
     font-size: $size;
     font-weight: $fontW;
-    text-align: $aligne;
+    text-align: $align;
 }
 
 @mixin pago ($size, $align, $marginT){
@@ -10,3 +10,19 @@
     text-align: $center;
     margin-top: $marginT;
 }
+
+@mixin articulos ($color, $size, $style, $align, $text, $dec, $type){
+    color: $color;
+    font-size: $size;
+    font-style: $style;
+    text-align: $align;
+    font-weight: $text;
+    text-decoration: $dec;
+    list-style-type: $type;
+
+    
+}
+/* .articulos{
+    @include articulos (rgb (44, 44, 44), 1em, italic, left, underline,square);
+}
+ */
