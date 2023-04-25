@@ -42,7 +42,16 @@
    text-decoration: $no;
    
 }
+.anuncio-imagen{
+   width: $w90;
+   height: $height100px;
+}
+   .anuncio-imagen2{
+      width: $w100;
+      height: $auto;
+      margin-top: $m25;
 
+}
 .tamaño-video{
    margin-top: $m1;
    width: $w90; 
@@ -116,6 +125,7 @@
 
 #subtitulo {
    font-style: $italic;
+   color: $mainC;
 }
 
 #search {
@@ -191,6 +201,7 @@
 
    .subtitle-principal {
       font-size: $textXsm;
+     
    }
 
    .titulo-princ {
@@ -208,6 +219,7 @@
    .ocultar {
       display: $no;
    }
+  
 
 
 }

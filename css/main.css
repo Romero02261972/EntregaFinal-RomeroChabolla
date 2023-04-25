@@ -13,12 +13,10 @@ body {
 }
 
 header {
-  background-color: rgb(254, 251, 251);
+  background-image: url(../css/assets/img/bg3.jpg);
+  width: 100%;
   margin-top: 1px;
   margin-bottom: 10px;
-  margin-right: 5px;
-  margin-left: 3px;
-  padding: 1px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -82,22 +80,23 @@ footer a img {
 
 .p_articulo {
   color: rgba(44, 44, 44, 0.863);
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 400;
   text-align: justify;
 }
 
 .logo-principal {
-  width: 80%;
+  width: 200px;
   height: auto;
 }
 
 .bg-pattern {
-  background-image: url(../css/assets/img/bg3.jpg);
+  background-color: rgb(253, 240, 240);
 }
 
 .iconos {
   width: 2em;
+  fill: red;
 }
 
 /* $grid-template-columns: 25% 50% 25%;
@@ -214,6 +213,17 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
+.anuncio-imagen {
+  width: 90%;
+  height: 100px;
+}
+
+.anuncio-imagen2 {
+  width: 100%;
+  height: auto;
+  margin-top: 25%;
+}
+
 .tamaño-video {
   margin-top: 1%;
   width: 90%;
@@ -295,6 +305,7 @@ nav ul li a:hover {
 
 #subtitulo {
   font-style: italic;
+  color: rgb(44, 44, 44);
 }
 
 #search {
