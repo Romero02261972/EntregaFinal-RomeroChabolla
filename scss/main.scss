@@ -9,217 +9,178 @@
 
 /*clases  */
 
-.titulo-articulos{
-      @include articulos (rgb (44, 44, 44), 2em, normal, center, 400,none, none);
-      margin-top: $m5;
-      margin-bottom: $m15;
-  }
+.titulo-articulos {
+ @include articulos(rgb (44, 44, 44), 2em, normal, center, 400, none, none);
+ margin-top: $m5;
+ margin-bottom: $m15;
+}
 .art-text {
-   margin: $m5;;
-   font-size: $textMd;
-   }
+ margin: $m5;
+ font-size: $textMd;
+}
 .text-right {
-   text-align: $right;
+ text-align: $right;
 }
 
 .text-center {
-   text-align: $center;
+ text-align: $center;
 }
 
 .text-left {
-   text-align: $left;
+ text-align: $left;
 }
 
 .size-sm {
-   @include pago(1.5em, center, 5px);
+ @include pago(1.5em, center, 5px);
 }
 
-.articulos{
-    @include articulos (grey, 12px, italic, left, 100, underline, square)
+.articulos {
+ @include articulos(grey, 12px, italic, left, 100, underline, square);
 }
 
 .dec-none {
-   text-decoration: $no;
-   
+ text-decoration: $no;
 }
-.anuncio-imagen{
-   width: $w90;
-   height: $height100px;
+.anuncio-imagen {
+ width: $w90;
+ height: $height100px;
 }
-   .anuncio-imagen2{
-      width: $w100;
-      height: $auto;
-      margin-top: $m25;
-
+.anuncio-imagen2 {
+ width: $w100;
+ height: $auto;
+ margin-top: $m25;
 }
-.tamaño-video{
-   margin-top: $m1;
-   width: $w90; 
+.tamaño-video {
+ margin-top: $m1;
+ width: $w90;
 }
 .tamaño-img {
-   margin-top: $m1;
-   width: $w60;
+ margin-top: $m2;
+ width: $w30;
+display: $flex;
+justify-content: $spcAround
+
 }
 
-.sales {
-   display: $flex;
-   justify-content: $spcAround;
-}
 .img-sales {
-   @extend .tamaño-img;
-   margin-left: $mPx20;
-   margin-right: $mPx20;
-  }
+ @extend .tamaño-img;
+ margin-left: $w200px;
+ margin-right: $m20px;
+}
 .margin-top {
-   margin-top: $mPx10;
+ margin-top: $mPx10;
 }
 .articulo {
-   color: $redC;
-   padding: $m2;
-   margin-top: $m1;
+ color: $redC;
+ padding: $m2;
+ margin-top: $m1;
 }
 .fill-rgba {
-   fill: $transC;
+ fill: $transC;
 }
 .fill-white {
-   fill: $wtC;
+ fill: $wtC;
 }
 .formulario {
-   width: $w100;
-   color: $mainC;
-   font-size: $f1_5;
-   margin: $mPx5;
-   text-align: $center;
-   display: $flex;
-   flex-direction: $col;
-   align-items: $center;
+ width: $w100;
+ color: $mainC;
+ font-size: $f1_5;
+ margin: $mPx5;
+ text-align: $center;
+ display: $flex;
+ flex-direction: $col;
+ align-items: $center;
 }
 .title-sales {
-   background-color: $greenC;
-   color: $wtC !important;
-   font-size: $f2e;
-   font-weight: $fB;
-   width: $w100;
-   border-radius: $borderRpx10px;
-   margin-top: $m2;
+ background-color: $greenC;
+ color: $wtC !important;
+ font-size: $f2e;
+ font-weight: $fB;
+ width: $w100;
+ border-radius: $borderRpx10px;
+ margin-top: $m2;
 }
 .leerMas {
-   color: $greenC;
-   text-decoration: $no;
-   font-size: $f1_5;
-   font-weight: $textXbold;
-   & :hover{
-      color: $redC
-   }
+ color: $greenC;
+ text-decoration: $no;
+ font-size: $f1_5;
+ font-weight: $textXbold;
+ & :hover {
+  color: $redC;
+ }
 }
 
 /* identificadores */
 .registro {
-   color: $greenC;
-   font-size: $f3_5e;
-   font-weight: $textBold;
-   text-align: $center;
-   margin: $mPx5;
+ color: $greenC;
+ font-size: $f3_5e;
+ font-weight: $textBold;
+ text-align: $center;
+ margin: $mPx5;
 }
 #blog {
-   font-size: $f3e;
-   font-stretch: $expanded;
-   margin-top: $mPx5;
+ font-size: $f3e;
+ font-stretch: $expanded;
+ margin-top: $mPx5;
 }
 
 #subtitulo {
-   font-style: $italic;
-   color: $mainC;
+ font-style: $italic;
+ color: $mainC;
 }
 
 #search {
-   width: $w50;
-   height: $height30px;
-   border-radius: $borderRpx10px;
-   background-color: $wtC;
-   border-color: $greenC;
-   margin-top: $m1;
+ width: $w50;
+ height: $height30px;
+ border-radius: $borderRpx10px;
+ background-color: $wtC;
+ border-color: $greenC;
+ margin-top: $m1;
+
 }
 
 #anuncio {
-   color: $wtC;
-   background-color: $greenC;
-   font-size: $f1_5;
-   font-weight: $textBold;
-   text-align: $center;
-   padding: $m50px;
-   margin-top: $m10
+ color: $wtC;
+ background-color: $greenC;
+ font-size: $f1_5;
+ font-weight: $textBold;
+ text-align: $center;
+ padding: $m50px;
+ margin-top: $m10;
 }
-#anuncio-2{
-   @extend #anuncio;
-   padding: $pdPx100;
+#anuncio-2 {
+ @extend #anuncio;
+ padding: $pdPx100;
 }
 /* FLEX */
 .align-center {
-   align-self: $center;
+ align-self: $center;
 }
-
 
 /*GRID */
 #galeria {
-   display: $grid;
-   grid-template-columns: 25% 50% 25%;
-   grid-template-rows: 70% 30%;
-   grid-template-areas:
-      "aside-1 main aside-2"
-      "ofertas ofertas ofertas";
-   gap: $mPx10;
+ display: $grid;
+ grid-template-columns: 25% 50% 25%;
+ grid-template-rows: 70% 30%;
+ grid-template-areas:
+  "aside-1 main aside-2"
+  "ofertas ofertas ofertas";
+ gap: $mPx10;
 }
 
 .aside-1 {
-   grid-area: aside-1;
+ grid-area: aside-1;
 }
 
 .main {
-   grid-area: main;
+ grid-area: main;
 }
 
 .ofertas {
-   grid-area: ofertas;
+ grid-area: ofertas;
 }
 
 .aside-2 {
-   grid-area: aside-2;
-   margin-right: $mPx20;
-}
-
-/*breakpoints  */
-
-@media (max-width: 768px) {
-   .img-sales-r {
-      display: $no;
-   }
-
-   .title-principal {
-      font-size: $textXlg;
-   }
-
-   .subtitle-principal {
-      font-size: $textXsm;
-     
-   }
-
-   .titulo-princ {
-      display: $flex;
-      flex-direction: $col;
-   }
-
-   .icono-resp {
-      display: $flex;
-      flex-direction: $col;
-      width: $f1_5;
-      margin: $mPx8;
-   }
-
-   .ocultar {
-      display: $no;
-   }
-  
-
-
+ grid-area: aside-2;
+ margin-right: $mPx20;
 }
