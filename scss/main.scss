@@ -2,8 +2,6 @@
 @import "_vars";
 @import "_mixins";
 @import "_commons";
-@import "_maps";
-@import "_grid";
 @import "responsive";
 @import "_nav";
 
@@ -56,7 +54,7 @@
 }
 .tamaño-img {
  margin-top: $m2;
- width: $w30;
+ width: $w60;
 display: $flex;
 justify-content: $spcAround
 
@@ -64,8 +62,8 @@ justify-content: $spcAround
 
 .img-sales {
  @extend .tamaño-img;
- margin-left: $w200px;
- margin-right: $m20px;
+ margin-left: $m25;
+ margin-right: $m10;
 }
 .margin-top {
  margin-top: $mPx10;
@@ -109,15 +107,26 @@ justify-content: $spcAround
   color: $redC;
  }
 }
-
-/* identificadores */
-.registro {
- color: $greenC;
- font-size: $f3_5e;
- font-weight: $textBold;
- text-align: $center;
- margin: $mPx5;
+.pagina-error{
+  font-size: $w200;  
+  display: $flex;
+  align-items: center;
 }
+
+.img-error{
+    width: $w200px;
+    display: $flex;
+    align-items: center;
+}
+.registro {
+    color: $greenC;
+    font-size: $f3_5e;
+    font-weight: $textBold;
+    text-align: $center;
+    margin: $mPx5;
+   }
+/* identificadores */
+
 #blog {
  font-size: $f3e;
  font-stretch: $expanded;
