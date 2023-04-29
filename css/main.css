@@ -282,15 +282,15 @@ nav ul li a:hover {
 }
 
 .pagina-error {
-  font-size: 200%;
-  display: flex;
-  align-items: center;
+  font-size: 3em;
+  display: block;
+  text-align: center;
+  margin-top: 30%;
 }
 
 .img-error {
-  width: 200px;
-  display: flex;
-  align-items: center;
+  width: 50%;
+  margin-top: 50px;
 }
 
 .registro {
@@ -299,6 +299,12 @@ nav ul li a:hover {
   font-weight: 400;
   text-align: center;
   margin: 5px;
+}
+
+.rotate:hover {
+  transform: rotate(360deg);
+  transition: all 1s;
+  cursor: pointer;
 }
 
 /* identificadores */

@@ -108,23 +108,29 @@ justify-content: $spcAround
  }
 }
 .pagina-error{
-  font-size: $w200;  
-  display: $flex;
-  align-items: center;
+  font-size: $textXlg; 
+  display: $block;
+  text-align: $center; 
+  margin-top: $w30;
+ 
 }
 
 .img-error{
-    width: $w200px;
-    display: $flex;
-    align-items: center;
-}
+    width: $w50;
+    margin-top: $w50px;
+ }
 .registro {
     color: $greenC;
     font-size: $f3_5e;
     font-weight: $textBold;
     text-align: $center;
     margin: $mPx5;
-   }
+       }
+.rotate:hover{
+  transform: rotate(360deg);
+  transition: all (1s);
+  cursor: pointer;
+}
 /* identificadores */
 
 #blog {
