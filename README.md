@@ -1,0 +1,11 @@
+Proyecto final para el curso de Desarrollo Web en CoderHouse, inicié diseñando los wireframes para cinco páginas y las maqueté en html. Inicialmente los estilos los apliqué con CSS, y posteriormente reutilicé ese código para aplicar SASS al proyecto, también utilicé Bootstrap para construir algunas secciones como la nav, formularios y grids.
+El sitio consta de cinco páginas, siendo la principal el index, en la cual se muestra el encabezado con el logo de la empresa a la izquierda, el nombre al centro y a la derecha tres íconos, el de registro que linkea hacia la página del mismo nombre, el de favoritos, que lleva hacia la página Tienda y el carrito que lleva a la página de pago.
+En el cuerpo del index se aplicó bootstrap para construir un grid de tres filas y dos columnas, en la primera fila, en la primer columna hay una barra de navegación hacia las distintas páginas del sitio en el centro un párrafo y una imágen, en la segunda columna hay un texto incompleto con un link "leer mas..." que lleva hacia la página Blog,
+en la segunda fila hay texto y del lado derecho una imágen.
+En la tercera fila se colocaron, abarcando las 12 columnas tres imagenes que llevan hacia la página Tienda.
+El footer se construyó con flex para colocar dos textos continuos y tres íconos de redes sociales linkeados hacia una página de error.
+La página de Blog, también se construyó con un grid de bootstrap que contiene una barra de navegación hacia los artículos que formarán parte de esa página pero aún no se han escrito por lo que al dar click sobre ellos son dirigidos hacia una página de error, en la siguiente columna se desarrolla un texto, y en la segunda fila se encuentran tres imagenes ocupando las 12 columnas.
+La página tienda se hizo también con un grid de bootstrap de 3 filas con 3 columnas cada una con una imagen.
+La página de Registro y de Pago se hicieron con un formulario de bootstrap.
+Todas las páginas son responsive aplicados con media querys y clases de bootstrap.
+Los links al repositorio son los siguientes: preentrega2-romero-chabolla-ftc3g489v-romero02261972.vercel.app [Wireframe proyecto 1 html y css coderhouse.pdf](https://github.com/Romero02261972/EntregaFinal-RomeroChabolla/files/11358404/Wireframe.proyecto.1.html.y.css.coderhouse.pdf)
